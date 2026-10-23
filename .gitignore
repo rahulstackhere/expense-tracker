@@ -1,0 +1,29 @@
+# Dependencies
+node_modules/
+backend/.venv/
+
+# Environment files
+.env
+.env.*
+!.env.example
+backend/.env
+backend/.env.*
+!backend/.env.example
+
+# Next.js build output
+.next/
+out/
+build/
+
+# Local SQLite databases
+backend/*.db
+backend/*.sqlite
+backend/*.sqlite3
+
+# Python generated files
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# TypeScript build cache
+*.tsbuildinfo
